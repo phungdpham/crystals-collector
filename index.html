@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cyrystal Collector</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+    <div class="header">
+        <h1>Crytals Collector</h1>
+    </div>
+
+    <!--Number to Match-->
+    <div class="numberToMatch">
+        <span id="randomNumber"></span>
+    </div>
+
+    <!--Wins and Losses-->
+    <div class="wins-losses">
+        <p id="alert"></p>
+        <p>Wins: <span id="numberWins"></span></p>
+        <p>Losses: <span id="numberLosses"></span></p>
+    </div>
+
+    <!--Crystal Images-->
+    <div class="crystals">
+        <img src="assets/images/blueCrystal.png" class="crystal-image" id="blueCrystal" width=200 height=200>
+        <img src="assets/images/greenCrystal.png" class="crystal-image" id="greenCrystal" width=200 height=200>
+        <img src="assets//images/redCrystal.png" class="crystal-image" id="redCrystal" width=200 height=200>
+        <img src="assets/images/yellowCrystal.png" class="crystal-image" id="yellowCrystal" width=200 height=200>
+    </div>
+
+    <!--User total score-->
+    <div class="userTotalScores">
+        <h2>Your total score is: </h2>
+        <section id="finalTotalScore"></section>
+        
+    </div>
+
+    <!--Instruction-->
+    <div class="instruction">
+        <h3>Instruction</h3>
+        <p>You will be given a random number at the start of the game</p>
+        <p>There are four crystals below. By cpcking on a scrytal you will add a spcecific amount of points to your total score.</p>
+        <p>You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number</p>
+        <p>The value of each crytal is hidden from you until you cpck on it.</p>
+        <p>Each time when the game starts, the game will change the values of each crytals</p>
+
+</div>
+
+
+
+    <!--Javascript Link -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
